@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Product Discount Calculator</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <main>
+        <h1>Giảm giá sản phẩm</h1>
+        <form action="display_discount.php" method="post">
+
+            <div id="data">
+                <label>Tên loại sản phẩm:</label>
+                <input type="text" name="tensp"><br>
+
+                <label>Giá :</label>
+                <input type="text" name="giasp"><br>
+
+                <label>Phần trăm giảm:</label>
+                <input type="text" name="giam_ps"><span>%</span><br>
+            </div>
+
+            <div id="buttons">
+                <label>&nbsp;</label>
+                <input type="submit" value="Tính"><br>
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>
